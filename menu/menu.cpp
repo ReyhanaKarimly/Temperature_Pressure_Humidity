@@ -38,6 +38,7 @@ printf("Enter t,P or H: ");
 	case 'R': {printf("Vvedite davleniye v mm.rtutnoqo stolba: ");
 		scanf("%f", &rtut);
 		printf("%g mm.rtut.st.=%g/760=%g atm", rtut,rtut,rtut/760); break;}
+		default: printf("Wrong operation!");
 	}}
 	if(mode=='H')
 	{
